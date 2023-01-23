@@ -1,0 +1,15 @@
+/..<config> koneksi.php../
+
+<?php
+$server = 'localhost';
+$user = 'root';
+$pass = '';
+$db = 'db_ukk';
+
+
+$koneksi = mysqli_connect($server, $user, $pass, $db);
+
+
+if(!Skoneksi){
+  echo 'Koneksi Gagal';
+}
